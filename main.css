@@ -49,9 +49,19 @@ box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
     width: 500px;
   }
 
+  @keyframes rotation{
+    0%{
+    transform: rotate(0deg);
+  }
+    100%{
+      transform: rotate(360deg);
+    }
+  } 
+
   .about__sun—image {
 width: 100px;
 height: 100px;
+animation: rotation 10s linear infinite;
   }
 
   .about {
@@ -128,19 +138,7 @@ background-size: cover;
     margin-bottom: 15px;
   }
 
-  .form input {
-    font-size: 18px;
-    color: #213053;
-    height: 60px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-radius: 15px;
-    border: none;
-  }
-
-  .form select {
+  .form input select {
     font-size: 18px;
     color: #213053;
     height: 60px;
@@ -174,11 +172,18 @@ padding-left: 20px;
 padding-right: 20px;
 font-size: 16px;
 font-weight: 600;
-display: flex;
-justify-content: center;
 line-height: 40px;
 text-align: center;
 opacity: 0.5;
+  }
+
+  .footer__container{
+display: flex;
+justify-content: center;
+{
+
+  .footer__copyright {
+
   }
 
   .footer__group{
