@@ -9,6 +9,9 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    position: sticky;
+    background-color: #fff;
+    top: 0;
   }
    
   .header__logo {
@@ -184,7 +187,9 @@ opacity: 0.5;
   }
 
   .footer__copyright {
-    
+    margin: 40px;
+    text-align: center;
+    opacity: 0.5;
   }
 
   .footer__group{
